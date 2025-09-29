@@ -6,10 +6,28 @@
         xmlns:local="clr-namespace:Prodigious"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
+   
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
 
+        <StackPanel Grid.Column="0">
+            <!-- TO-DO: This will be where the digimon table is shown-->
+        </StackPanel>
         
+        <StackPanel Grid.Column="1">
+            <!-- TO-DO: We need a way of adding placeholder text to these text boxes because it looks nice, code own or use mahapps.metro-->
+            <TextBox Width="100" Height="20" Margin="5" Text="Name"></TextBox>
+            <TextBox Width="100" Height="20" Margin="5" Text="Attribute"></TextBox>
+            <TextBox Width="100" Height="20" Margin="5" Text="Family"></TextBox>
+            <TextBox Width="100" Height="20" Margin="5" Text="Stage"></TextBox>
+
+            <Button Width="100" Margin="5" Content="Add"></Button>
+            
+        </StackPanel>
     </Grid>
+ 
     
 </Window>

@@ -4,7 +4,7 @@ namespace Prodigious.Models
 {
     public class DigimonDbContext : DbContext
     {
-        public DbSet<Digimon> digimon { get; set; }
+        public DbSet<Digimon> Digimon { get; set; }
 
         public string connectionString = @"./DigimonDB.db";
 

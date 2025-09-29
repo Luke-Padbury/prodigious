@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Prodigious")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa18921478b0f487d46a6f3e57d02c8895f7e629")]
 [assembly: System.Reflection.AssemblyProductAttribute("Prodigious")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Prodigious")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
